@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Doğum Günü Daveti 🎂</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Cormorant+Garamond:wght@600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div class="bg" id="bg"></div><div class="shade"></div><canvas id="balonlar"></canvas><canvas id="konfeti"></canvas>
+<main>
+ <p class="davet">DOĞUM GÜNÜME DAVETLİSİN</p>
+ <h1 id="isim"></h1>
+ <p class="yas" id="yas"></p>
+ <p class="mesaj" id="mesaj"></p>
+ <section class="kart" id="kart">
+  <p class="tarih" id="tarih"></p><p class="saat" id="saat"></p>
+  <div class="say" aria-live="off"><div><b id="g">0</b><span>gün</span></div><div><b id="s">0</b><span>saat</span></div><div><b id="d">0</b><span>dakika</span></div><div><b id="sn">0</b><span>saniye</span></div></div>
+  <p class="mekan"><strong id="mekan"></strong><br><small id="adres"></small></p>
+  <div class="btnler"><a class="btn" id="harita" target="_blank" rel="noopener">Haritada aç</a><a class="btn" id="takvim" target="_blank" rel="noopener">Takvime ekle</a><a class="btn ana" id="yanit" target="_blank" rel="noopener">Geliyorum 🎉</a></div>
+ </section>
+ <button class="pasta" id="pasta" aria-label="Mumları üfle">
+  <svg width="120" height="110" viewBox="0 0 120 110"><rect x="15" y="60" width="90" height="40" rx="8" fill="#e0567a"/><rect x="15" y="60" width="90" height="12" rx="6" fill="#f7e7ce"/><g fill="#e8a87c"><rect x="38" y="38" width="6" height="22" rx="2"/><rect x="57" y="38" width="6" height="22" rx="2"/><rect x="76" y="38" width="6" height="22" rx="2"/></g><g class="alevler" fill="#ffd166"><path class="alev" d="M41 24c5 6 4 11 0 13-4-2-5-7 0-13z"/><path class="alev" style="animation-delay:.1s" d="M60 24c5 6 4 11 0 13-4-2-5-7 0-13z"/><path class="alev" style="animation-delay:.2s" d="M79 24c5 6 4 11 0 13-4-2-5-7 0-13z"/></g></svg>
+ </button>
+ <p class="ipucu" id="ipucu">Mumları üflemek için pastaya dokun</p>
+ <p class="ipucu" id="imza" style="margin-top:.6rem"></p>
+</main>
+<script src="config.js"></script><script src="script.js"></script>
+</body></html>
